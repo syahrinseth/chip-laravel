@@ -1,6 +1,6 @@
 <?php
 
-namespace SyahrinSeth\ChipApi;
+namespace SyahrinSeth\ChipLaravel;
 
 use Chip\Model\ClientDetails;
 use Chip\Model\Product;
@@ -14,7 +14,7 @@ class ChipService
 
     public function __construct()
     {
-        $this->chip = app('chipapi');
+        $this->chip = app('chiplaravel');
     }
 
     public function createPurchase($email, array $products, $successRedirect, $failureRedirect, $successCallback)
@@ -38,7 +38,7 @@ class ChipService
         $details->products = $chip_products;
 
         $purchase->purchase = $details;
-        $purchase->brand_id = config('chipapi.brand_id');
+        $purchase->brand_id = config('chiplaravel.brand_id');
         $purchase->success_redirect = $successRedirect;
         $purchase->success_callback = $successCallback;
         $purchase->failure_redirect = $failureRedirect;

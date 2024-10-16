@@ -24,5 +24,12 @@
         "php": "^8.2",
         "laravel/framework": "^11.9",
         "chip/chip-sdk-php": "v1.1.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SyahrinSeth\\ChipLaravel\\ChipServiceProvider"
+            ]
+        }
     }
 }
