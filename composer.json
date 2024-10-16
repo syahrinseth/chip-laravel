@@ -23,7 +23,7 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^11.9",
-        "chip/chip-sdk-php": "^1.0"
+        "chip/chip-sdk-php": "^1.0.0"
     },
     "extra": {
         "laravel": {
