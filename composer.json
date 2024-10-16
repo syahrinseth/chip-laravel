@@ -1,0 +1,28 @@
+{
+    "name": "syahrinseth/chip-laravel",
+    "description": "Chip PHP wraper for laravel project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SyahrinSeth\\ChipLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Syahrin Seth",
+            "email": "syahrinseth@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:CHIPAsia/chip-php-sdk.git"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.9",
+        "chip/chip-sdk-php": "v1.1.2"
+    }
+}
