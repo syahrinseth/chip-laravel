@@ -77,7 +77,7 @@ class ComposerStaticInit3f19cbb7a51b42a1166a651b4cce50c7
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Clock\\' => 24,
-            'Syahrinseth\\ChipLaravel\\' => 24,
+            'SyahrinSeth\\ChipLaravel\\' => 24,
         ),
         'R' => 
         array (
@@ -275,7 +275,7 @@ class ComposerStaticInit3f19cbb7a51b42a1166a651b4cce50c7
         array (
             0 => __DIR__ . '/..' . '/symfony/clock',
         ),
-        'Syahrinseth\\ChipLaravel\\' => 
+        'SyahrinSeth\\ChipLaravel\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
