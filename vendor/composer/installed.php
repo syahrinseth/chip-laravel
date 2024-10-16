@@ -3,7 +3,7 @@
         'name' => 'syahrinseth/chip-laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'fb192c5d271354ab70ec2ea822fc64dff3533855',
+        'reference' => 'beeec27b0241f4be72bbd6c357d58f26c76f066e',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -644,7 +644,7 @@
         'syahrinseth/chip-laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'fb192c5d271354ab70ec2ea822fc64dff3533855',
+            'reference' => 'beeec27b0241f4be72bbd6c357d58f26c76f066e',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
