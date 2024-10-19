@@ -45,8 +45,8 @@ class ChipService
 
         $result = $this->chip->createPurchase($purchase);
 
-        if ($result && $result->checkout_url) {
-            return $result->checkout_url;
+        if ($result) {
+            return $result;
         }
 
         throw new \Exception('Failed to create a purchase');
