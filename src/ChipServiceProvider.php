@@ -20,5 +20,14 @@ class ChipServiceProvider extends ServiceProvider
     public function register()
     {
         // Register bindings or services for your package
+        $this->app->singleton('chiplaravel', function ($app) {
+            $config = config('chiplaravel'); // Fetch the config data
+    
+            return new \Chip\ChipApi(
+                $config['brand_id'], 
+                $config['api_key'], 
+                $config['endpoint']
+            );
+        });
     }
 }

@@ -77,7 +77,7 @@ public function createPurchase(Request $request)
         'test@example.com',
         [
             $product
-        ]
+        ],
         'https://yourdomain.com/redirect.php?success=1',
         'https://yourdomain.com/redirect.php?success=0',
         'https://yourdomain.com/callback.php?success=0'
