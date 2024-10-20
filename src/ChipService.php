@@ -51,4 +51,9 @@ class ChipService
 
         throw new \Exception('Failed to create a purchase');
     }
+
+    public function getPurchase($id): Purchase
+    {
+        return $this->chip->getPurchase($id);
+    }
 }
