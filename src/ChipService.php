@@ -17,7 +17,7 @@ class ChipService
         $this->chip = app('chiplaravel');
     }
 
-    public function createPurchase($email, array $products, $successRedirect, $failureRedirect, $successCallback, $cancelRedirect = null)
+    public function createPurchase($email, array $products, $successRedirect, $failureRedirect, $successCallback, $cancelRedirect = null, $sendReceipt = false)
     {
         $client = new ClientDetails();
         $client->email = $email;
@@ -43,6 +43,7 @@ class ChipService
         $purchase->success_callback = $successCallback;
         $purchase->failure_redirect = $failureRedirect;
         $purchase->cancel_redirect = $cancelRedirect;
+        $purchase->send_receipt = $sendReceipt;
 
         $result = $this->chip->createPurchase($purchase);
 
